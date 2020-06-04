@@ -9,6 +9,7 @@ RUN apt-get update && \
       curl \
       git \
       vim \
+      ssh \
       && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
