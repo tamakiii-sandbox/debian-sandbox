@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  debian:
+    build: .
+    volumes:
+      - .:/usr/local/app/debian-sandbox
